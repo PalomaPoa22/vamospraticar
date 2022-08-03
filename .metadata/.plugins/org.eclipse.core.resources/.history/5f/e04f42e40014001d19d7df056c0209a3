@@ -1,0 +1,16 @@
+package br.atividade.main;
+
+import br.atividade.model.Media;
+
+public class MediaTest {
+
+	public static void main(String[] args) {
+
+		
+		Media media= new Media(8, 8);
+		
+		media.media(8, 8);
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package br.atividade.model;
+
+public class Numero {
+
+	private Integer numero;
+
+	public Numero() {
+		super();
+	}
+
+	public Integer getNumero() {
+		return numero;
+	}
+
+	public void limitador(int numero) {
+		if (numero > 9 && numero < 21) {
+			System.out.println("Numero - "+numero+" - Esta  no limite 1-20 ");
+		} else {
+			System.out.println("Numero - "+numero+" - Fora do limite 1-20 " );
+		}
+	}
+
+}

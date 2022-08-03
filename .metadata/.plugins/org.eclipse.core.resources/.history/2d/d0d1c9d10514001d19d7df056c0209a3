@@ -1,0 +1,25 @@
+package br.atividade.main;
+
+import java.util.Scanner;
+
+import br.atividade.model.Numero;
+
+public class NumeroTest {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		Numero verificaNumero= new Numero();
+		
+//		System.out.println("Digite um numero");
+//		int numero=sc.nextInt();
+		
+		for (int i = 0; i < 25; i++) {
+			
+			verificaNumero.limitador(i);
+		}
+		
+		sc.close();
+	}
+
+}
